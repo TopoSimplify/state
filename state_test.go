@@ -1,13 +1,13 @@
 package state
 
 import (
-	"testing"
 	"github.com/franela/goblin"
+	"testing"
 	"time"
 )
 
 func TestState(t *testing.T) {
-	var g= goblin.Goblin(t)
+	var g = goblin.Goblin(t)
 
 	g.Describe("State", func() {
 		g.It("test clean and dirty", func() {
